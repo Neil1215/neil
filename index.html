@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>薛淯澤的軍火商店</title>
+</head>
+<style>
+
+.top{
+position:absolute;
+width: 100%;
+height: 185px; 
+top:0px;
+left:0px;
+}
+.middle {
+position:absolute;
+width: 99.5%;
+height: 155px;
+border: 2.5px solid gray;
+top:285px;
+left:0px;
+background-color: #B8B8FF;
+}
+.third {
+position:absolute;
+width: 99.5%;
+height: 400px;
+border: 2.5px solid gray;
+top:390px;
+left:0px;
+background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+}
+.four {
+position:absolute;
+width: 99.5%;
+height: 280px;
+border: 3px solid gray;
+top:796px;
+left:0px;
+background-image: linear-gradient(-20deg, #dcb0ed 0%, #99c99c 100%);
+}
+.five {
+position:absolute;
+width: 99.5%;
+height: 900px;
+border: 3px solid gray;
+top:1083px;
+left:0px;
+background-image: linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%);
+}
+.last {
+position:absolute;
+width: 99.5%;
+height: 355px;
+border: 3px solid gray;
+top:1985px;
+left:0px;
+background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%);
+}
+.vector {
+position:absolute;
+width: 380px;
+height: 165px; 
+border: 2px solid black;
+top:1360px;
+left:80px;
+background-color: white;
+}
+.vector:hover{
+transform:scale(1.3);
+}
+.ak {
+position:absolute;
+width: 380px;
+height: 165px; 
+border: 2px solid black;
+top:1360px;
+left:520px;
+background-color: white;
+}
+.ak:hover{
+transform:scale(1.3);
+}
+.m4 {
+position:absolute;
+width: 380px;
+height: 165px; 
+border: 2px solid black;
+top:1360px;
+left:960px;
+background-color: white;
+}
+.m4:hover{
+transform:scale(1.3);
+}
+.svd {
+position:absolute;
+width: 380px;
+height: 165px; 
+border: 2px solid black;
+top:1730px;
+left:80px;
+background-color: white;
+}
+.svd:hover{
+transform:scale(1.3);
+}
+.m24 {
+position:absolute;
+width: 380px;
+height: 165px; 
+border: 2px solid black;
+top:1730px;
+left:520px;
+background-color: white;
+}
+.m24:hover{
+transform:scale(1.3);
+}
+.awm {
+position:absolute;
+width: 380px;
+height: 165px; 
+border: 2px solid black;
+top:1730px;
+left:960px;
+background-color: white;
+}
+.awm:hover{
+transform:scale(1.3);
+}
+.intro {
+position:absolute;
+top:1080px;
+left: 610px;
+font-family: 標楷體;
+font-weight: bold;
+font-size: 3.3em;
+line-height: 110px;
+color: #171717;
+width: 500px;
+}
+.intro2 {
+position:absolute;
+top:1165px;
+left: 200px;
+font-family: 標楷體;
+font-weight: bold;
+font-size: 1.5em;
+line-height: 110px;
+color: white;
+width: 1350px;
+}
+.intro3 {
+position:absolute;
+top:1235px;
+left: 500px;
+font-family: 標楷體;
+font-weight: bold;
+font-size: 1.5em;
+line-height: 110px;
+color: white;
+width: 1350px;
+}
+.main {
+  width: 80%;
+  margin: 20px auto;
+  position:absolute;
+  top:855px;
+  left:158px;
+}
+table {
+  border-spacing: 0;
+  width: 100%;
+}
+tr {
+  text-align: center;
+}
+th {
+  padding: 10px;
+}
+table tbody tr:nth-child(odd){
+  background-color: 	#FFD4D4;
+}
+table thead {
+  background-color: #FFC863;
+  color: white;
+}
+table thead th:first-child {
+  border-radius: 5px 0 0 0;
+  border: 1px solid #FFC863;
+}
+table thead th:last-child {
+  border-radius: 0 5px 0 0;
+  border-right: 1px solid #FFC863;
+}
+table tbody tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
+}
+
+table tbody tr:last-child td:last-child {
+  border-radius: 0 0 5px 0;
+}
+.table{
+position:absolute;
+top:785px;
+left: 610px;
+font-family: 標楷體;
+font-weight: bold;
+font-size: 3.2em;
+line-height: 110px;
+color: #171717;
+width: 500px;
+}
+.bill{
+position:absolute;
+top:1970px;
+left: 610px;
+font-family: 標楷體;
+font-weight: bold;
+font-size: 2.5em;
+line-height: 110px;
+color: #171717;
+width: 500px;
+}
+.text{
+position:absolute;
+top:372px;
+left: 610px;
+font-family: 標楷體;
+font-weight: bold;
+font-size: 3em;
+line-height: 110px;
+color: #171717;
+width: 500px;
+}
+.link {
+position:absolute;
+top:270px;
+left: 492px;
+font-family: 標楷體;
+font-weight: bold;
+font-size: 1.8em;
+line-height: 110px;
+color: #171717;
+width: 1350px;
+}
+.brieftro {
+position:absolute;
+top:462px;
+left: 88px;
+font-family: 標楷體;
+font-weight: bold;
+font-size: 1.3em;
+line-height: 42px;
+color: #0000F5;
+width: 1390px;
+}
+.verify {
+position:absolute;
+top:2095px;
+left: 400px;
+font-family: 標楷體;
+font-weight: bold;
+font-size: 1em;
+line-height: 25px;
+color: #FAFAFA;
+width: 1280px;
+}
+.gun {
+position:absolute;
+width: 135px;
+height: 102px; 
+border: 2px solid black;
+top:284px;
+left:1375px;
+background-color: white;
+}
+.gun2 {
+position:absolute;
+width: 135px;
+height: 102px; 
+border: 2px solid black;
+top:284px;
+left:0px;
+background-color: white;
+}
+@keyframes move {
+0% {top:270px; left: 492px;}
+25% {top:270px; left:139px;}
+50% {top:270px; left: 492px;}
+75% {top:270px; left: 855px;}
+100% {top:270px; left: 492px;}
+}
+.movereal{
+ animation-name: move;
+ animation-duration: 16.5s;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+ }
+.logo{
+position:absolute;
+top:132px;
+left: 365px;
+font-family: Times New Roman ;
+font-weight: bold;
+font-size: 5.5em;
+line-height: 110px;
+color: #AD0000;
+width: 1500px;
+}
+.yt {
+position:absolute;
+top:-25px;
+left:1375px
+font-family: 標楷體;
+font-weight: bold;
+font-size: 1.5em;
+line-height: 110px;
+color: #A326FF;
+width: 600px;
+}
+</style>
+<body>
+
+<div class="top"><img src="photo/top.jpg" width="100%" height="280"></div>
+<div class="middle"></div>
+<div class="third"></div>
+<div class="four"></div>
+<div class="five"></div>
+<div class="last"></div>
+<div class="vector"><img src="photo/vector.png" width="350" height="150">
+<div class="hover">
+<div style="position:absolute;width:150px;height:100px;z-indent:2;left:0;top:0;">
+(A) Vector 衝鋒槍
+</div></div></div>
+<div class="ak"><img src="photo/ak.png" width="350" height="150">
+<div class="hover">
+<div style="position:absolute;width:150px;height:100px;z-indent:2;left:0;top:0;">
+(B) AK47 突擊步槍
+</div></div></div>
+<div class="m4"><img src="photo/m416.png" width="350" height="150">
+<div class="hover">
+<div style="position:absolute;width:150px;height:100px;z-indent:2;left:0;top:0;">
+(C) M416 突擊步槍
+</div></div></div>
+<div class="svd"><img src="photo/svd.png" width="350" height="150">
+<div class="hover">
+<div style="position:absolute;width:150px;height:100px;z-indent:2;left:0;top:0;">
+(D) SVD 狙擊步槍
+</div></div></div>
+<div class="m24"><img src="photo/m24.png" width="350" height="150">
+<div class="hover">
+<div style="position:absolute;width:150px;height:100px;z-indent:2;left:0;top:0;">
+(E) M24 狙擊槍
+</div></div></div>
+<div class="awm"><img src="photo/awm.png" width="350" height="150">
+<div class="hover">
+<div style="position:absolute;width:150px;height:100px;z-indent:2;left:0;top:0;">
+(F) AWM 狙擊槍
+</div></div></div>
+<div class="intro">
+<a name="1"></a>
+軍火種類
+</div>
+<div class="intro2">
+除以下槍枝，本店亦有各式子彈(如:馬格南、5.56mm...)，以及手榴彈、煙霧彈等軍備武器。</div>
+<div class="intro3">
+<a href="https://www.ncue.edu.tw/">有需要之顧客請點選此連結與專人聯絡。</a>
+</div>
+<div class="main">
+<table>
+  <thead>
+    <th>名稱</th>
+    <th>所屬種類</th>
+    <th>子彈類型</th>
+    <th>有效射程</th>
+	<th>原產國</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>(A) Vector </td>
+      <td>衝鋒槍</td>
+      <td>.45ACP</td>
+      <td>200 m</td>
+	  <td>美國</td>
+    </tr>
+    <tr>
+      <td>(B) AK47</td>
+      <td>突擊步槍</td>
+      <td>7.62mm</td>
+      <td>300 m</td>
+	  <td>蘇聯</td>
+    </tr>
+    <tr>
+      <td>(C) M416</td>
+      <td>突擊步槍</td>
+      <td>5.56mm</td>
+      <td>450m</td>
+	  <td>美國</td>
+    </tr>
+	<tr>
+      <td>(D) SVD</td>
+      <td>狙擊步槍</td>
+      <td>7.62mm</td>
+      <td>800m</td>
+	  <td>蘇聯</td>
+    </tr>
+	<tr>
+      <td>(E) M24</td>
+      <td>狙擊槍</td>
+      <td>7.62mm</td>
+      <td>超過1000m</td>
+	  <td>美國</td>
+    </tr>
+	<tr>
+      <td>(F) AWM</td>
+      <td>狙擊槍</td>
+      <td>馬格南</td>
+      <td>超過1100m</td>
+	  <td>英國</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="table">
+<a name="2"></a>
+資料明細
+</div>
+<div class="bill">
+<a name="3"></a>
+身分審核
+</div>
+<div class="text">
+<a name="4"></a>
+關於我們
+</div>
+<div class="link movereal">
+<a href="#4">關於我們</a>
+<a href="#2">資料明細</a>
+<a href="#1">軍火種類</a>
+<a href="#3">身分審核</a>
+</div>
+<div class="brieftro">
+<a>作為亞洲地區最大的軍火供應商，我們擁有穩定的供貨來源。請有需求之組織、機構或個人點擊軍火種類欄之連結，並請遵守以下原則。</a>
+<ul style='list-style-type:circle;'> 
+  <li>由於軍火武器之特殊性，故網頁上恕不顯示價錢，有需求之客戶請自行與專人聯繫</li> 
+  <li>欲下單之客戶請先於網頁下方完成身分審核，個人請提供身分及財力證明，組織機構請提供合法成立之相關文件或證明</li> 
+  <li>無論是個人或組織機構，皆須詳述購買軍火之目的</li> 
+  <li>嚴禁濫殺無辜，違者將移送國際刑警組織偵辦</li> 
+</ul>
+</div>
+<div class="verify">
+<a>資料送出不代表就能下訂單，請等待身分審核通過，將有專人與您聯繫</a>
+<form action="url" method="GET">
+訂購人姓名(Name):<input type=“text” id=“fname” name=“fname”><br>
+訂購人信箱(Email):<input type="email"> <br>
+訂購人連絡電話(Phone):<input type="phone"><br>
+證明文件與購買目的(請將所有檔案一併壓縮成rar檔並上傳):<input type="file"> <br>
+我已詳閱並同意上述所有購買原則<input type="checkbox"><br>
+<input type="submit" style=background-color:#FF6363;color:white;padding:15px;font-size:16.5px >
+</div>
+<div class="gun"><img src="photo/gun.jpg" width="135" height="105"></div>
+</body>
+<div class="gun2"><img src="photo/gun2.jpg" width="135" height="105"></div>
+<div class="logo">FIGHT   FOR   LIFE</div>
+<div class="yt"><a href="https://www.youtube.com/channel/UCfa7Np1XKoc12QEfaeP0JWQ">Youtube頻道</a>
+</div>
+</body>
+</html>
